@@ -1,0 +1,63 @@
+.housecontainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 2%;;
+  padding-right: 2%;
+  background-color:#F5DEB3;
+  &-title {
+    font-size: 60px;
+  }
+
+  &-ourhistory {
+    width: 100%;
+    padding-top: 2rem;
+
+    &__title {
+      // border: solid 1px red;
+      width: 100%;
+      font-size: 60px;
+      color:#525e6b;
+    }
+    &__textimg {
+      // border: solid 1px violet;
+      justify-content: center;
+      
+      &__story {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-1{
+          text-align: center;
+          color: rgb(87, 84, 84);
+        }
+        &-img0 {
+          height: 8.5rem;
+          width: 8.5rem;
+          border-radius: 50%;
+          background-image: url('../../assets/img/comunes/almorzo.png');
+          background-position:center;
+          background-size: cover;
+          
+        }
+        &-img1 {
+          height: 8.5rem;
+          width: 8.5rem;
+          border-radius: 50%;
+          background-image: url('../../assets/img/comunes/exterior.png');
+          background-position:center;
+          background-size: cover;
+        }
+        &-img2 {
+          height: 8.5rem;
+          width: 8.5rem;
+          border-radius: 50%;
+          background-image: url('../../assets/img/comunes/interior1.png');
+          background-position:center;
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
