@@ -6,7 +6,7 @@ export function ContactMap () {
         <div>
             <div className="container-map">
                 <GoogleMaps
-                apiKey={"AIzaSyAoCCo45f4HOy4xnAxnnjN7pQEcgK02VKM"}
+                apiKey={""}
                 style={{ height: "300px", width: "45%"}}
                 zoom={15}
                 center={{

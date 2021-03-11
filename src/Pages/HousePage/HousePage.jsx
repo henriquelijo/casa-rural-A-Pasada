@@ -6,11 +6,6 @@ import './HousePage.scss';
 export function HousePage () {
     return (
         <section className="housecontainer">
-         
-          <h2 className="housecontainer-title">Conócenos</h2>
-         
-            
-          <BootstrapCarousel /> 
 
           <div className="housecontainer-ourhistory"> 
             <h2 className="housecontainer-ourhistory__title">
@@ -19,11 +14,12 @@ export function HousePage () {
             <div className="housecontainer-ourhistory__textimg">
               <div className="housecontainer-ourhistory__textimg__story">
                 <p className="housecontainer-ourhistory__textimg__story-1">
-                Situada en San Román de Montoxo, a cuatro kilómetros 
+                Rodeada de frutales, y en el corazón del tranquilo valle de San Román de Montoxo, a cuatro kilómetros 
                 del municipio coruñés de Cedeira, la rehabilitación de 
-                Casa A Pasada en 2006 supuso la recuperación de un 
-                edificio singular y querido para la aldea de la Pasada.</p>
-                <div className="housecontainer-ourhistory__textimg__story">
+                Casa A Pasada en 2006 supuso la recuperación de la antigua escuela de la aldea </p>
+
+               
+                {/* <div className="housecontainer-ourhistory__textimg__story">
                   <figure className="housecontainer-ourhistory__textimg__story-img0">
                     
                   </figure>
@@ -38,31 +34,16 @@ export function HousePage () {
                 posada para aquellos que seguían la ruta hacia 
                 San Andrés de Teixido.
                 </p>
-                
+                 */}
               </div>
+              <BootstrapCarousel /> 
               <div className="housecontainer-ourhistory__textimg__story">
-                <div className="housecontainer-ourhistory__textimg__story-img">
-                    <figure className="housecontainer-ourhistory__textimg__story-img1">
-                      
-                    </figure>
-                </div> 
+               
                   <p className="housecontainer-ourhistory__textimg__story-1">
-                  En la rehabilitación, hemos querido respetar la propia
-                  historia de la casa, construida en el siglo XIX.</p>
-                  <div className="housecontainer-ourhistory__textimg__story-img">
-                     <figure className="housecontainer-ourhistory__textimg__story-img2">
-                      
-                     </figure>
-                  </div>
-                  <p className="housecontainer-ourhistory__textimg__story-1">
-                  De ahí que optamos por recuperar la fachada original 
+                  Construida en el siglo XIX, la casa conserva la fachada original 
                   de piedra en las caras oeste, norte y este, pero 
-                  también apostamos por dejar constancia de la huella 
-                  histórica que este siglo y medio ha dejado en el 
-                  edificio: anteriores propietarios quisieron emular, 
-                  entrado ya el siglo XX, el estilo indiano, ajustando 
-                  en lo posible la fachada sur a la arquitectura de 
-                  aquella época.
+                  también el estilo indiano adoptado por los antiguos propietarios a principios del siglo XX.
+                  Un retiro rural que apuesta por un nuevo concepto de turismo sostenible y respetuoso con el valor de nuestra historia.
                   </p>
               </div>
               <figure className="bigImg">

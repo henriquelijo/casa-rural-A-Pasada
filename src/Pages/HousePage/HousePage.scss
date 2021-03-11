@@ -1,60 +1,76 @@
 .housecontainer {
   display: flex;
   flex-direction: column;
-  padding-top: 3rem;
-  padding-left: 2%;;
-  padding-right: 2%;
-  background-color:#F5DEB3;
+
+  background-color: #f3f2e4;
   &-title {
-    font-size: 60px;
+    font-size: 40px;
+    color: #84a491;
   }
 
   &-ourhistory {
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 4rem;
 
     &__title {
       // border: solid 1px red;
       width: 100%;
-      font-size: 60px;
-      color:#525e6b;
+      font-size: 50px;
+      color: #84a491;
+      padding-left: 2%;
+      padding-right: 2%;
     }
     &__textimg {
       // border: solid 1px violet;
       justify-content: center;
-      
+
       &__story {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        &-1{
-          text-align: center;
-          color: rgb(87, 84, 84);
+        padding-left: 2%;
+        padding-right: 2%;
+
+        &-1 {
+          color: #6d6c63;
+          margin-left: 5px;
+          margin-top: 30px;
+          margin-bottom: 55px;
+          line-height: 1.9;
         }
+        p::after {
+          display: block;
+          content: "";
+          height: 2px;
+          width: 100px;
+          background-color: #6d6c63;
+          margin-top: 3rem;
+          box-sizing: inherit;
+        }
+
         &-img0 {
           height: 8.5rem;
           width: 8.5rem;
           border-radius: 50%;
-          background-image: url('../../assets/img/comunes/almorzo.png');
-          background-position:center;
+          background-image: url("../../assets/img/comunes/almorzo.png");
+          background-position: center;
           background-size: cover;
-          
         }
         &-img1 {
           height: 8.5rem;
           width: 8.5rem;
           border-radius: 50%;
-          background-image: url('../../assets/img/comunes/exterior.png');
-          background-position:center;
+          background-image: url("../../assets/img/comunes/exterior.png");
+          background-position: center;
           background-size: cover;
         }
         &-img2 {
           height: 8.5rem;
           width: 8.5rem;
           border-radius: 50%;
-          background-image: url('../../assets/img/comunes/interior1.png');
-          background-position:center;
+          background-image: url("../../assets/img/comunes/interior1.png");
+          background-position: center;
           background-size: cover;
         }
       }

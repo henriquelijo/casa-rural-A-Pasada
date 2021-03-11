@@ -7,9 +7,10 @@
   padding-top: 2rem;
   background-color: rgba(168, 167, 166, 0.432);
   background-image: url(../assets/img/openHeader.png);
-  background-position: top;
+
+  background-position: left center;
 }
-.container-menu-title{
+.container-menu-title {
   text-align: right;
   width: 30%;
   color: rgb(221, 218, 189);
@@ -20,21 +21,19 @@
   color: blue;
 }
 
-.fade-container{
+.fade-container {
   height: 65px;
   width: 100%;
   padding-top: 0px;
- 
+
   padding-bottom: 25px;
   font-size: 20px;
-
-  
 }
 ul {
   margin-right: 50px;
   display: flex;
-  font-family: 'Bebas Neue', cursive;
-  
+  font-family: "Bebas Neue", cursive;
+
   li {
     color: rgb(222, 184, 135);
     padding: 0px;
@@ -48,17 +47,17 @@ ul {
     }
   }
 }
-  
+
 .hidden {
   display: none;
 }
 
-.hiddenContent{
-  display:none;
+.hiddenContent {
+  display: none;
 }
 
-@media (max-width: 576px) { 
-  .hidden{
+@media (max-width: 576px) {
+  .hidden {
     display: inline-block;
   }
- }
+}
