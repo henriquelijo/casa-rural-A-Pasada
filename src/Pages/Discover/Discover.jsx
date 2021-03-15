@@ -8,14 +8,14 @@ export function Discover () {
         <section className="container-discover">
             <h3 className="title">Descubre Ortegal</h3>
             <DiscoverCarousel></DiscoverCarousel>
-            <div className="container-discover">
+            {/* <div className="container-discover">
                 <h4>Fechas señaladas</h4>
                 <div className="container-discover-text">
                     <div className="container-discover-text-1">
                         <figure className="container-discover-img1">
 
                         </figure>
-                        <p className="container-discover-text1"></p>
+                        <p className="container-discover-text1 "></p>
                     </div>
                     <div className="container-discover-text-2">
                         <p className="container-discover-text2"></p>
@@ -31,7 +31,7 @@ export function Discover () {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

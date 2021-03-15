@@ -77,3 +77,22 @@
     }
   }
 }
+
+.imgContainer {
+  height: 300px;
+  width: 100%;
+  background-image: url("../../assets/img/comunes/flower.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imgContainer1 {
+  height: 300px;
+  width: 100%;
+  background-image: url("../../assets/img/fullHouse.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}

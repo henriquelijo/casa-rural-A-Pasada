@@ -12,15 +12,7 @@ export function DiscoverCarousel () {
                 return (  
 
                         <div>  
-
-                         <div class='container-fluid' >  
-
-                          <div className="row title" style={{ marginBottom: "20px" }} >    
-
-                         </div>  
-
-                         </div>  
-
+ 
                          <div className='container-fluid' >  
 
                         <Carousel interval={2000} keyboard={false} pauseOnHover={true}>  
@@ -36,7 +28,7 @@ export function DiscoverCarousel () {
 
                            <Carousel.Caption>  
 
-                             <h3>Pena Furada</h3>  
+                             <h3 className="titleDiscover">Pena Furada</h3>  
 
                                  </Carousel.Caption>  
 
@@ -53,7 +45,7 @@ export function DiscoverCarousel () {
 
                                        <Carousel.Caption>  
 
-                                   <h3>Santo André de Teixido</h3>  
+                                   <h3 className="titleDiscover">Santo André de Teixido</h3>  
 
                                       </Carousel.Caption>  
 
@@ -70,7 +62,7 @@ export function DiscoverCarousel () {
 
                                         <Carousel.Caption>  
 
-                                          <h3>Solpor de Valdoviño</h3>  
+                                          <h3 className="titleDiscover">Solpor de Valdoviño</h3>  
 
                                           </Carousel.Caption>  
 

@@ -36,7 +36,8 @@ export function HousePage () {
                 </p>
                  */}
               </div>
-              <BootstrapCarousel /> 
+              {/* <BootstrapCarousel />  */}
+              <div className="imgContainer1"></div>
               <div className="housecontainer-ourhistory__textimg__story">
                
                   <p className="housecontainer-ourhistory__textimg__story-1">
@@ -46,9 +47,7 @@ export function HousePage () {
                   Un retiro rural que apuesta por un nuevo concepto de turismo sostenible y respetuoso con el valor de nuestra historia.
                   </p>
               </div>
-              <figure className="bigImg">
-
-              </figure>
+              <div className="imgContainer"></div>
 
             </div>
           </div>

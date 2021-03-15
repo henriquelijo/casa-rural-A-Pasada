@@ -12,12 +12,12 @@ export function MenuContent () {
                 
                 <li >
                     <a  href="#">
-                        Descubre Ortegal
+                        Habitaciones
                     </a>
                 </li>
                 <li> 
                     <a href="#">
-                    Habitaciones
+                    Descubre Ortegal
                     </a>
                 </li>
                 <li>
