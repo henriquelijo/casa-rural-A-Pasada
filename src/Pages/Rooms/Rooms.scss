@@ -1,7 +1,7 @@
 .container-ourrooms {
   margin-top: 4rem;
-  
-  &__title{
+
+  &__title {
     width: 100%;
     font-size: 50px;
     color: #84a491;
@@ -16,6 +16,20 @@
     line-height: 1.9;
     padding-left: 2%;
     padding-right: 2%;
+  }
+  &__prizes {
+    margin-top: 3rem;
+    color: #6d6c63;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    &-title {
+      color: #84a491;
+    }
+    &-strong {
+      padding-top: 1rem;
+      font-weight: 600;
+    }
   }
 }
 
