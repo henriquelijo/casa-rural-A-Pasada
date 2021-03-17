@@ -1,5 +1,22 @@
-.rooms-title {
+.container-ourrooms {
   margin-top: 4rem;
+  
+  &__title{
+    width: 100%;
+    font-size: 50px;
+    color: #84a491;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  &__text {
+    color: #6d6c63;
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    line-height: 1.9;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
 }
 
 .imgContainer2 {
@@ -9,8 +26,4 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.prizes {
-  color: #6d6c63;
 }
