@@ -8,4 +8,16 @@
     padding-top: 4rem;
     padding-bottom: 2rem;
   }
+  &__article{
+    margin-top: 3rem;
+    padding-right: 2%;
+    padding-left: 2%;
+    color: rgb(225, 228, 220);
+    font-size: 18px;
+    &-strong{
+      padding-bottom: 3rem;
+      font-size: 25px;
+      color: rgb(80, 79, 79);
+    }
+  }
 }

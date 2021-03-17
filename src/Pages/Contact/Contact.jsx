@@ -18,7 +18,7 @@ export function Contact () {
                     <input type="text" placeholder="Número de teléfono"></input>
                 </label>
                 <textarea placeholder="mensaje" name="message" require></textarea>
-                <input type="submit" value="Enviar"></input>
+                <input className="buttonform" type="submit" value="Enviar"></input>
                 <input type="hidden" name="_next" value="http://localhost:3000/" />
                 <input type="hidden" name="_subject" value="Website contact" />
                 <input type="text" name="_gotcha" style={{"display":"none"}} />
