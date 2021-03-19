@@ -35,9 +35,13 @@ export function Rooms () {
             <p className="container-ourrooms__prizes-strong">
                 Habitación doble con desayuno (IVA Incluido):</p>
             <div className="container-ourrooms__prizes-text">
-            <p>Temporada baja: 60eur.</p>
-            <p>Temporada alta: 80 eur.</p>
-            <p>Casa Completa:300 eur.</p>
+                <div className="container-ourrooms__prizes-text-p">
+                <p>Temporada baja: 60eur.</p>
+                <p>Temporada alta: 80 eur.</p>
+                <p>Casa Completa:300 eur.</p>
+
+                </div>
+                <div className="container-ourrooms__prizes-text-img"></div>
             </div>
               
            </div>

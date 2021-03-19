@@ -1,5 +1,6 @@
 .container-ourrooms {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 
   &__title {
     width: 100%;
@@ -22,6 +23,7 @@
     color: #6d6c63;
     padding-left: 2%;
     padding-right: 2%;
+    width: 100%;
 
     &-title {
       color: #84a491;
@@ -29,6 +31,23 @@
     &-strong {
       padding-top: 1rem;
       font-weight: 600;
+    }
+    &-text {
+      display: flex;
+      justify-content: space-around;
+
+      &-p {
+        width: 40%;
+      }
+      &-img {
+        background-image: url("../../assets/img/comunes/almorzo.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+      }
     }
   }
 }
