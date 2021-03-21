@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.scss';
 
+
 export function Footer () {
     return(
         <footer className="container-footer">
@@ -24,7 +25,16 @@ export function Footer () {
                 </div>
                 </div>
                 
-                <div className="col"></div>
+                <div className="col">
+                    <div className="col img-logo"></div>
+                    <div className="col">
+                        <h4>Contacto</h4>
+                        <p>tlfn: </p>
+                        <p>Dirección</p>
+                        <p>email: </p>
+                    </div>
+
+                </div>
             </div>
             
         </footer>
