@@ -10,11 +10,23 @@ export function Footer () {
                         Política de protección de datos
                     </a>
                     <div className="row">
-                        
-                    </div>
+                
+                <div className="col-2">
+                    <a href="https://www.instagram.com/casaapasada/">
+                <i class="fab fa-instagram"></i>
+                </a>    
                 </div>
+                <div className="col-2">
+                    <a href="https://www.facebook.com/A.PasadaTurismoRural">
+                    <i class="fab fa-facebook-square"></i> 
+                    </a>  
+                </div>
+                </div>
+                </div>
+                
                 <div className="col"></div>
             </div>
+            
         </footer>
     )
 }

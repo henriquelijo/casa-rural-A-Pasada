@@ -1,5 +1,5 @@
 import React from 'react';
-import FadeIn from 'react-fade-in';
+
 import './MenuContent.scss';
 
 export function MenuContent () {
@@ -11,7 +11,7 @@ export function MenuContent () {
             <ul className="box">
                 
                 <li >
-                    <a  href="#">
+                    <a href="#">
                         Habitaciones
                     </a>
                 </li>
