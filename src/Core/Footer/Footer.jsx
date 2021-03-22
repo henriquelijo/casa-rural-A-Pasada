@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.scss';
+import { NavLink } from 'react-router-dom';
 
 
 export function Footer () {
@@ -7,9 +8,9 @@ export function Footer () {
         <footer className="container-footer">
             <div className="row">
                 <div className="col">
-                    <a activeClassName="link--active" to={"/datausage"}>
+                    <NavLink ClassName="link--active" exact activeClassName="footer__link--active" to={"/datausage"}>
                         Política de protección de datos
-                    </a>
+                    </NavLink>
                     <div className="row">
                 
                 <div className="col-2">
