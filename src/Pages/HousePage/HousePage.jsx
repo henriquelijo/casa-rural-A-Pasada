@@ -36,7 +36,7 @@ export function HousePage () {
                 </p>
                  */}
               </div>
-              {/* <BootstrapCarousel />  */}
+              <BootstrapCarousel /> 
               <div className="imgContainer1"></div>
               <div className="housecontainer-ourhistory__textimg__story">
                

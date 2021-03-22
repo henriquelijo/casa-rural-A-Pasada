@@ -1,11 +1,13 @@
 import React from 'react';
 import DiscoverCarousel from './DiscoverCarousel/DiscoverCarousel';
 import './Discover.scss';
+import { Element } from 'react-scroll';
 
 export function Discover () {
     return(
 
         <section className="container-discover">
+            <Element name='discover-scroll'>
             <h3 className="title">Descubre Ortegal</h3>
             <DiscoverCarousel></DiscoverCarousel>
             <article className="container-discover__article">
@@ -28,6 +30,7 @@ export function Discover () {
                     deja en el viajero una impronta inolvidable.
                 </p>
             </article>
+            </Element>
         </section>
     )
 }

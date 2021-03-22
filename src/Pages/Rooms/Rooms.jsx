@@ -1,12 +1,14 @@
 import React from 'react';
 import './Rooms.scss';
+import { Element } from 'react-scroll';
 
 
 export function Rooms () {  
  
 
     return (  
-            <div className="container-ourrooms">  
+            <div className="container-ourrooms"> 
+            <Element name='rooms-scroll'> 
 
             <h2 className="container-ourrooms__title">
                 Habitaciones
@@ -45,6 +47,8 @@ export function Rooms () {
             </div>
               
            </div>
+           
+           </Element>
             </div>  
     )  
 

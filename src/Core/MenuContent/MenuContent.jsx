@@ -1,6 +1,6 @@
 import React from 'react';
-
 import './MenuContent.scss';
+import { Link } from 'react-scroll';
 
 export function MenuContent () {
 
@@ -9,21 +9,25 @@ export function MenuContent () {
         <div className="fadein">
             
             <ul className="box">
-                
-                <li >
-                    <a href="#">
-                        Habitaciones
-                    </a>
-                </li>
-                <li> 
-                    <a href="#">
-                    Descubre Ortegal
-                    </a>
-                </li>
                 <li>
                     <a href="#">
-                        Contacto
+                        Home
                     </a>
+                </li>
+                <li className="nav-item">
+                <Link smooth={true} to="rooms-scroll">
+                    Habitaciones</Link>
+                        
+                </li>
+                <li> 
+                    <Link smooth={true} to='discover-scroll'>
+                    Descubre Ortegal
+                    </Link>
+                </li>
+                <li>
+                    <Link smooth={true} to='contact-scroll'>
+                        Contacto
+                    </Link>
                 </li>
             </ul>
             

@@ -5,7 +5,7 @@
 .container-header {
   height: 10rem;
   padding-top: 2rem;
-  background-color: rgba(168, 167, 166, 0.432);
+  background-color: rgba(168, 167, 166, 0.253);
   background-image: url(../assets/img/openHeader.png);
 
   background-position: left center;
@@ -38,12 +38,13 @@ ul {
     color: rgb(222, 184, 135);
     padding: 0px;
     list-style: none;
+    padding-top: 1rem;
 
     a:link,
     a:visited,
     a:active {
       text-decoration: none;
-      color: whitesmoke;
+      color: rgb(250, 248, 248);
     }
   }
 }

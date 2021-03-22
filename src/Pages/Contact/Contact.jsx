@@ -1,12 +1,15 @@
 import React from 'react'; 
 import ContactMap from './ContactMap/ContactMap';
 import './contact.scss';
+import { Element } from 'react-scroll';
 
 export function Contact () {
 
     const action = 'https://formspree.io/f/xrgonebr';
     return(
+        
         <section className="container-contact">
+            <Element name='contact-scroll'>
             <form id="contactform" action={action} method="POST">
                 <label>
                     <input type="text" placeholder="Nombre" require></input>
@@ -25,6 +28,8 @@ export function Contact () {
             </form>
         
             <ContactMap />
+            </Element>
         </section>
+        
     )
 }

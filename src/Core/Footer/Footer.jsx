@@ -7,7 +7,7 @@ export function Footer () {
         <footer className="container-footer">
             <div className="row">
                 <div className="col">
-                    <a href="./LegalPage/LegalPage.jsx">
+                    <a activeClassName="link--active" to={"/datausage"}>
                         Política de protección de datos
                     </a>
                     <div className="row">
