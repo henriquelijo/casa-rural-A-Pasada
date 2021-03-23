@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.scss';
-import { NavLink } from 'react-router-dom';
 
 
 export function Footer () {
@@ -8,19 +7,21 @@ export function Footer () {
         <footer className="container-footer">
             <div className="row">
                 <div className="col">
-                    <NavLink ClassName="link--active" exact activeClassName="footer__link--active" to={"/datausage"}>
-                        Política de protección de datos
-                    </NavLink>
+                   
+                   <a href="#">
+                       Política de protección de datos
+                   </a>
+                    
                     <div className="row">
                 
                 <div className="col-2">
                     <a href="https://www.instagram.com/casaapasada/">
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
                 </a>    
                 </div>
                 <div className="col-2">
                     <a href="https://www.facebook.com/A.PasadaTurismoRural">
-                    <i class="fab fa-facebook-square"></i> 
+                    <i className="fab fa-facebook-square"></i> 
                     </a>  
                 </div>
                 </div>
