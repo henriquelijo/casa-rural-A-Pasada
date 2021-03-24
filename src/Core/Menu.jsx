@@ -31,7 +31,7 @@ export function Menu () {
     color='white'
     borderRadius={0}
     animationDuration={0.5}
-/>
+/> 
 </div>   
               <div className="col-8  container-title">
               {/* <i class="fab fa-pagelines"></i> */}
